@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "compilerPath": "C:/msys64/mingw64/bin/g++.exe",
+            "includePath": [
+                "c:/msys64/mingw64/include/",
+                "C:/msys64/mingw64/include/c++/8.2.1",
+                "C:/msys64/mingw64/x86_64-w64-mingw32/include",
+                "C:/msys64/mingw64/include/c++/8.2.1/tr1",
+                "${workspaceFolder}"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "browse": {
+                "path":[
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}
