@@ -8,7 +8,15 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "-g", "${file}", "-o", "${fileBasenameNoExtension}.exe"
+                "-g",
+                "-std=c++11",
+                "-I",
+                "D:/Projects/googletest/googletest/include",
+                "-pthread",
+                "${file}", 
+                "D:/Projects/libgtest.a",
+                "-o",
+                "${fileBasenameNoExtension}.exe"
             ],
             "group": {
                 "kind": "build",

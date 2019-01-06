@@ -8,6 +8,10 @@
                 "C:/msys64/mingw64/include/c++/8.2.1",
                 "C:/msys64/mingw64/x86_64-w64-mingw32/include",
                 "C:/msys64/mingw64/include/c++/8.2.1/tr1",
+                "D:/Projects/googletest/googletest/",
+                "D:/Projects/googletest/googletest/include",
+                "D:/Projects/googletest/googlemock/",
+                "D:/Projects/googletest/googlemock/include",
                 "${workspaceFolder}"
             ],
             "defines": [
@@ -21,7 +25,9 @@
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
-            }
+            },
+            "gtestExplorer.executable": "${workspaceFolder}",
+            "gtestExplorer.cwd": "${workspaceFolder}"
         }
     ],
     "version": 4
